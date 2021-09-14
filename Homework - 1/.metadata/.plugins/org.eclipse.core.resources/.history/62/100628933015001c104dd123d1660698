@@ -1,5 +1,4 @@
 
-import java.util.Arrays;
 import java.util.Random;
 
 public class uTask20 {
@@ -17,25 +16,7 @@ public class uTask20 {
 		
 		Random rand = new Random();
 		int array_index = rand.nextInt(3)+1;
-		int char_index = rand.nextInt(52);
-		
-		String[] mainArray = new String[array_index];
-		/*
-		for (int i=0; i < mainArray.length;)
 		System.out.println(charArray.length); 
-		*/
-		
-		String[] arr = {"aDs","add","dd","eee"};
-		
-		for (int i = 0; i < arr.length; i++) {
-			if (arr[i].length() > 2) {
-				arr[i] = arr[i].toUpperCase();
-			} else {
-				arr[i] = arr[i].toLowerCase();
-			}
-		}
-
-		System.out.println(Arrays.toString(arr));
 		
 		
 	}

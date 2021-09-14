@@ -30,8 +30,6 @@ public class uTask20 {
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i].length() > 2) {
 				arr[i] = arr[i].toUpperCase();
-			} else {
-				arr[i] = arr[i].toLowerCase();
 			}
 		}
 
