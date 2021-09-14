@@ -11,6 +11,7 @@ public class CheckCoordinates {
 		int x = sc.nextInt();
 		System.out.println("Enter Y coordinate");
 		int y = sc.nextInt();
+		sc.close();
 		
 		int Xmin = -2;
 		int Xmax = 3;
