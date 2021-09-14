@@ -1,0 +1,38 @@
+import java.util.Arrays;
+
+public class uTask16 {
+	
+	public static int[] swap (int []arr, int num1, int num2) {
+	    int temp = arr[num1];
+	    arr[num1] = arr[num2];
+	    arr[num2] = temp;
+	    return arr;
+	}
+
+	public static void main(String[] args) {
+		// Uzrakstīt programmu, kas int masīvā, visus elementus kas ir vienādi ar 0, pārvieto uz masīva
+		//beigām.
+		int[] array = {0, 4, 0, 7, 8, 9, 0, 1};
+		
+		
+		for (int i = 0; i < array.length - 1; i++) {
+			if (array[i] == 0 && array[i + 1 ] != 0) {
+			    int temp = array[i];
+			    array[i] = array[i + 1];
+			    array[i + 1] = temp;
+			} else if (array[i] == 0 && array[i + 1 ] == 0) {
+			    int temp = array[i];
+			    int temp2 = array[i + 1];
+			    int temp3 = array[i + 2];
+			    array[i] = temp3;
+			    array[i + 1] = temp;
+			    array[i + 2] = temp2;
+			}
+		}
+		
+		System.out.println(Arrays.toString(array));
+
+		
+	}
+	
+}

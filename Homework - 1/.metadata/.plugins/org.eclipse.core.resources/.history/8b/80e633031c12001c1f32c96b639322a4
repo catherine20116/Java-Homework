@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Task7 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number");
+		int x = sc.nextInt();
+		sc.close();
+		
+		
+		// Uzrakstīt programmu, kas ievadē saņem skaitli(int) un izvada visus naturālus skaitļus līdz šim skaitlim, 
+		//ieskaitot.
+		for (int i = 0; i <= x; i++) {
+			if (i == x) {
+				System.out.print(i);
+			} else {
+				System.out.print(i + ",");
+			}
+		}
+		
+		
+		//Papilduzdevums: uzlabot tā lai, ja tiek ievadīts negatīvs skaitlis, lai tiktu izvadīti visi negatīvi veseli
+		//skaitļi līdz nullei
+	}
+
+}

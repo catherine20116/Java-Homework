@@ -1,0 +1,22 @@
+
+public class uTask17 {
+
+	public static void main(String[] args) {
+		// Uzrakstīt programmu, kas no masīva izmet visus duplikātus - vērtības, kas atkārtojas vairāk
+		//kā vienu reizi.
+		String[] arr = {"ABC","CDE","FGA","CDE","GAE","ABC","ABO"};
+		
+		for (int i = 0; i < arr.length; i++) {
+			for (int j = 1; j < arr.length; j++) {
+				if(arr[i].equals(arr[j])) {
+					System.out.println(arr[j]);
+				}
+			}
+		}
+		
+
+		
+		
+	}
+
+}

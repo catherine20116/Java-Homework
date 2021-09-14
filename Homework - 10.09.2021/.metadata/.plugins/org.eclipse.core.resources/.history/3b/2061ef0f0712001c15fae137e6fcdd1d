@@ -1,0 +1,19 @@
+
+public class AverageGrade {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+/*
+ Create a Java console application that:
+ produces an array of numbers (grades) that is created for storing grades.
+ The size of the array is randomly selected between 10 and 50.
+ The array grades are populated with random numbers between 1 and 10.
+ The contents of the array are output to the console without using the Arrays.toString method.
+ The average value of the elements of the array grades is calculated and displayed on the screen.
+ An additional challenge: to store decimals (float) in an array.
+*/

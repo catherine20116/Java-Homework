@@ -1,0 +1,14 @@
+
+public class uTask13 {
+
+	public static void main(String[] args) {
+		// Uzrakstīt programmu, kas izvada visus pozitīvos divu ciparu skaitļus un to ciparu summas.
+		
+		int num = 10;
+		String numString = Integer.toString(num);
+		System.out.print(numString[0]);
+		
+		//for (int i = 10)
+	}
+
+}

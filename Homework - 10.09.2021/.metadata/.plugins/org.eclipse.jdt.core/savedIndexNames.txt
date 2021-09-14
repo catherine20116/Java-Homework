@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\Users\R\Desktop\IT\JAVA Homework\Homework - 10.09.2021\.metadata\.plugins\org.eclipse.jdt.core
+238857107.index
+2623452618.index
