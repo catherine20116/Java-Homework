@@ -16,35 +16,35 @@ public class uTask20 {
 				'T', 't', 'U', 'u', 'V', 'v', 'W', 'w', 'X', 'x', 'Y', 'y', 'Z', 'z'};
 		
 		Random rand = new Random();
-		
+		int array_index = rand.nextInt(3)+1;
 		
 		
 		String[] mainArray = new String[4];
 		
-		for (int i = 0; i < mainArray.length; i++) {
-			int array_index = rand.nextInt(3)+1;
-			char[] newArray = new char[array_index];
-			for (int j = 0; j < newArray.length; j++) {
-				int char_index = rand.nextInt(52);
-				newArray[j] = charArray[char_index];
-			}
-			mainArray[i] = new String(newArray);
+		for (int i = 0; i < 4; i++) {
+			int char_index = rand.nextInt(52);
+			char charac = mainArray[0].charAt(i);
+			charac = charArray[char_index];
 		}
 		
-		System.out.println("The original array is:");
 		System.out.println(Arrays.toString(mainArray));
-
-				
-		for (int i = 0; i < mainArray.length; i++) {
-			if (mainArray[i].length() > 2) {
-				mainArray[i] = mainArray[i].toUpperCase();
+		
+		/*
+		for (int i=0; i < mainArray.length;)
+		System.out.println(charArray.length); 
+		*/
+		
+		String[] arr = {"aDs","add","dd","eee"};
+		
+		for (int i = 0; i < arr.length; i++) {
+			if (arr[i].length() > 2) {
+				arr[i] = arr[i].toUpperCase();
 			} else {
-				mainArray[i] = mainArray[i].toLowerCase();
+				arr[i] = arr[i].toLowerCase();
 			}
 		}
-		
-		System.out.println("The converted array is:");
-		System.out.println(Arrays.toString(mainArray));
+
+		System.out.println(Arrays.toString(arr));
 		
 		
 	}

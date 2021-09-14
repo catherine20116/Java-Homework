@@ -31,7 +31,6 @@ public class uTask20 {
 			mainArray[i] = new String(newArray);
 		}
 		
-		System.out.println("The original array is:");
 		System.out.println(Arrays.toString(mainArray));
 
 				
@@ -42,8 +41,7 @@ public class uTask20 {
 				mainArray[i] = mainArray[i].toLowerCase();
 			}
 		}
-		
-		System.out.println("The converted array is:");
+
 		System.out.println(Arrays.toString(mainArray));
 		
 		
