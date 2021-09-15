@@ -1,0 +1,10 @@
+
+public class uTask26 {
+
+	public static void main(String[] args) {
+		// Uzrakstīt metodi, kas kā parametru saņem masīvu vai sarakstu, un atgriež rezultātu, kurš
+		// norāda vai visi masīva/saraksta elementi ir augošā/dilstošā/ne augošā,ne dilstošā secībā
+
+	}
+
+}
