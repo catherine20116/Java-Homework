@@ -10,17 +10,16 @@ public class uTask23 {
 		ArrayList <Integer> array = new ArrayList<Integer>(Arrays.asList(1,5,4,2,3,1,5,2,3,1));
 		ArrayList <Integer> arrayNew = new ArrayList<Integer>();
 		
-
 		for (int item : array) {
-			if(!arrayNew.contains(item)) {
-				arrayNew.add(item);
+			arrayNew.add(item);
+			for (int item2 : array) {
+				if (item == item2) {
+					arrayNew.remove(item);
+				}
 			}
 		}
-
-		System.out.println("The initial array is:");
-		System.out.println(array);
-		System.out.println("The new array without duplicates is:");
-		System.out.println(arrayNew);
+		
+		System.out.println(Arrays.deepToString(arrayNew));
 	}
 
 }

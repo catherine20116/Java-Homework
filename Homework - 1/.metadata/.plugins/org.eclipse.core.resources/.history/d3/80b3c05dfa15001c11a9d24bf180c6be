@@ -17,9 +17,8 @@ public class uTask23 {
 			}
 		}
 
-		System.out.println("The initial array is:");
-		System.out.println(array);
-		System.out.println("The new array without duplicates is:");
+		
+		
 		System.out.println(arrayNew);
 	}
 
