@@ -40,7 +40,6 @@ public class Rectangle extends Shape {
 		System.out.println(two);
 		Square three = new Square(6);
 		System.out.println(three);
-		three.setColor("Blue");
 		System.out.println(three.getColor());
 	}
 

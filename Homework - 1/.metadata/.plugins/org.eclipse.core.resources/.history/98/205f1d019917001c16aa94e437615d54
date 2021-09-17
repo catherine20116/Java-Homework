@@ -1,5 +1,5 @@
 
-public class Rectangle extends Shape {
+public class Rectangle {
 	int length;
 	int width;
 	String kvadrats;
@@ -17,7 +17,11 @@ public class Rectangle extends Shape {
 	}
 	
 	public String isSquare() {
-		return "Is Not Square";
+		if (length == width) {
+			return "Is Square";
+		} else {
+			return "Is Not Square";
+		}
 	}
 	
 	public int area() {
@@ -38,10 +42,8 @@ public class Rectangle extends Shape {
 		System.out.println(one);
 		Rectangle two = new Rectangle (3, 8);
 		System.out.println(two);
-		Square three = new Square(6);
+		Square three = new Square (6);
 		System.out.println(three);
-		three.setColor("Blue");
-		System.out.println(three.getColor());
 	}
 
 }
