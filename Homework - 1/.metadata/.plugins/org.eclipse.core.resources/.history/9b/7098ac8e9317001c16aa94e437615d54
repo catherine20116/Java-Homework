@@ -1,0 +1,14 @@
+
+public class OOPTask1 {
+	int length;
+	int width;
+	
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
