@@ -1,0 +1,25 @@
+import java.util.Random;
+
+public class ComputerPlayer {
+	public String choice;
+	
+	public ComputerPlayer() {
+		Random rand = new Random();
+		int random = rand.nextInt(2);
+		if (random == 0) {
+			this.choice = "O";
+		} else {
+			this.choice = "X";
+		}
+		
+	}
+		
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ComputerPlayer p1 = new ComputerPlayer();
+		System.out.println(p1.choice);
+	}
+
+}
